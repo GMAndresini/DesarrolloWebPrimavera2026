@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 Receta pizza
 Receta de la original pizza receta completa
-enero 11, 2026
-Pastas
-Receta de la original pizza receta completa paso a paso para preparar en casa
-Contenidos [ocultar]
 
 1 Ingredientes necesarios para preparar la receta original de pizza paso a paso
 2 Cómo hacer la masa de pizza perfecta para la receta original
@@ -13,6 +8,11 @@ Contenidos [ocultar]
 5 Consejos para personalizar tu receta de pizza y obtener resultados irresistibles
 Ingredientes necesarios para preparar la receta original de pizza paso a paso
 Para preparar una auténtica pizza casera, es fundamental contar con ingredientes de calidad y precisión en las cantidades. La masa, base de toda buena pizza, requiere harina de trigo de alto contenido en gluten, agua tibia, levadura fresca o seca, sal y un poco de aceite de oliva virgen extra. La proporción de estos ingredientes influye directamente en la textura y elasticidad de la masa, por lo que es importante seguir las cantidades recomendadas.
-=======
+
+Prep hot dog
 Imagina una comida que combina sabor, rapidez y el toque perfecto de alegría: ¡el hot dog tradicional! Este delicioso platillo se ha convertido en un icono de la cultura culinaria en muchos países, siendo el favorito de grandes y chicos. ¿Te has preguntado alguna vez cómo preparar el hot dog perfecto en casa? En este artículo, te revelamos una receta fácil y sabrosa que te hará disfrutar al máximo de este clásico.
->>>>>>> recetas-nuevas
+
+Prep Burritos
+Beef Burrito: A classic choice, filled with spicy beef, rice, beans, and cheese.
+Chicken Burrito: A lighter option, filled with spiced chicken, rice, beans, and cheese.
+Vegetarian Burrito: A healthy choice, filled with mushrooms, beans, corn, avocado, and a subtle spice.
