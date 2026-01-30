@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top jugadores de ajedrez</title>
+</head>
+<body>
+    <h1>Top jugadores de ajedrez</h1>
+    <table border="1">
+        <caption>Ranking mundial de ajedrez</caption>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Bandera</th>
+                <th>Posición</th>
+                <th>Rating</th>
+                <th>Foto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Magnus Carlsen</td>
+                <td><img src="norway-flag.png" alt="Bandera de Noruega" width="30"></td>
+                <td>1</td>
+                <td>2840</td>
+                <td><img src="carlsen.jpg" alt="Magnus Carlsen" width="50"></td>
+            </tr>
+            <tr>
+                <td>Hikaru Nakamura</td>
+                <td><img src="usa-flag.png" alt="Bandera de Estados Unidos" width="30"></td>
+                <td>2</td>
+                <td>2810</td>
+                <td><img src="nakamura.jpg" alt="Hikaru Nakamura" width="50"></td>
+            </tr>
+            <tr>
+                <td>Fabiano Caruana</td>
+                <td><img src="usa-flag.png" alt="Bandera de Estados Unidos" width="30"></td>
+                <td>3</td>
+                <td>2795</td>
+                <td><img src="caruana.jpg" alt="Fabiano Caruana" width="50"></td>
+            </tr>
+            <tr>
+                <td>Vincent Keymer</td>
+                <td><img src="alemania-flag.png" alt="Bandera de Alemania" width="30"></td>
+                <td>4</td>
+                <td>2776</td>
+                <td><img src="keymer.jpg" alt="Vincent Keymer" width="50"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Datos actualizados a Enero 2026</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <form action="/submit" method="post" autocomplete="on">
+        <fieldset>
+            <legend>¡Ganaste un auto! Registra para reclamarlo</legend>
+            <label for="fullname">Nombre completo:</label>
+            <input type="text" id="fullname" name="fullname" required autocomplete="name" />
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required autocomplete="email" />
+            <label for="Datos Bancarios">Datos Bancarios:</label>
+            <input type="number" id="Datos Bancarios" name="Datos Bancarios" required autocomplete="new-datos-bancarios" />
+            <label for="birthdate">Fecha de nacimiento:</label>
+            <input type="date" id="birthdate" name="birthdate" required />
+            <label for="country">País:</label>
+            <select id="country" name="country" required>
+                <option value="">Seleccione...</option>
+                <option value="mx">México</option>
+                <option value="es">España</option>
+                <option value="ar">Argentina</option>
+                <option value="co">Colombia</option>
+            </select>
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+            <button type="submit">¡Qué fácil estuvo!</button>
+        </fieldset>
+    </form>
+</body>
+</html>
